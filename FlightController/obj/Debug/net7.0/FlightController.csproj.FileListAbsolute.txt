@@ -1,0 +1,15 @@
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.csproj.AssemblyReference.cache
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.AssemblyInfoInputs.cache
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.AssemblyInfo.cs
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.csproj.CoreCompileInputs.cache
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\bin\Debug\net7.0\FlightController.exe
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\bin\Debug\net7.0\FlightController.deps.json
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\bin\Debug\net7.0\FlightController.runtimeconfig.json
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\bin\Debug\net7.0\FlightController.dll
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\bin\Debug\net7.0\FlightController.pdb
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.dll
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\refint\FlightController.dll
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.pdb
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\FlightController.genruntimeconfig.cache
+C:\Users\kleyton\Documents\PROYECTOS\.NET\UnitTests\FlightController\obj\Debug\net7.0\ref\FlightController.dll

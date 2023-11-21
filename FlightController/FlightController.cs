@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlightController.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,22 +7,40 @@ using System.Threading.Tasks;
 
 namespace FlightController
 {
+ 
     public class FlightControl
     {
-        List<Flight> flights;
+        private SortedList<String,Flight> _flights;
 
         public FlightControl()
         {
+            _flights = new SortedList<String, Flight>();
         }
 
-        public FlightControl(Flight flight) {
-            flights.Add(flight);
+        public void AddFlight(Flight flight) {
+            if (_flights.ContainsKey(flight.getReference())) {
+                throw new DuplicateFlightException();
+            }
+            _flights.Add(flight.getReference(),flight);
         }
 
         public Flight findFlightByReference(string reference)
         {
-            //if (flights.Count == 0) throw new ;
-            return flights.Where(f => f.getReference().Equals(reference)).FirstOrDefault();
+            
+            if (_flights.Count == 0) {
+                throw new FlightsSortedListIsEmptyException();
+            }else if (!_flights.ContainsKey(reference))
+            {
+                throw new FlightNotFoundException();
+            }
+
+            return _flights[reference]; ;
+
+        }
+
+        public static void Main()
+        {
+            
         }
     }
 }

@@ -43,4 +43,5 @@
     {
         return HashCode.Combine(_reference, _departureDate, _origin, _destination);
     }
+
 }
